@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/Group\ 3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+header {
+    height: 120px;
+    width: 1479px;
+    background-color: #EAE9E9;
+    display: flex;
+    justify-content: space-between;
+}
+.img-cab {
+    width: 200px;
+    height: 140px;
+    margin-left: 20px;
+}
+.menu {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: space-between;
+}
+.portugues {
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px ;
+    height: 35px;
+    padding-left: 5px;
+}
+.portugues> img {
+    height: 20px; width: 20px;
+}
+.idioma {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 150px;
+    font-size: 25px;
+    display: flex;
+    margin-top: 40px; margin-bottom: 40px;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.entrar {
+    background-color: white;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 90px;
+    margin-top: 40px; margin-bottom: 40px;
+    padding-right: 3px;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+h1 {
+    color: white;
+    font-family: Arial;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 200px;
+}
+.login> a {
+    border: 2px solid #5300A6;
+    border-radius: 5px;
+    background-color: #5300A6;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 859px; height: 56px;
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0px;
+    align-items: center;
+    padding-left: 400px;
+    font-size: 20px;
+}
+.cadastrar> a {
+    border: 2px solid #5300A6;
+    border-radius: 5px;
+    background-color: #5300A6;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 859px; height: 56px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    padding-left: 340px;
+    font-size: 20px;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+.senha {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+

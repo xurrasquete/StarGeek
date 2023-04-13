@@ -121,4 +121,34 @@ h2 {
     flex-direction: column;
     margin-top: 10px;
 }
-
+.baixo {
+    background-color: black;
+    display: flex;
+}
+.baner {
+    width: 50%;
+    
+}
+.baner> h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;}
+.baner> p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: center;
+}
+.foto1 {
+    width: 40%;
+    padding: 30px;
+}
+.foto2 {
+    width: 40%;
+    padding: 30px;
+}
+.foto3 {
+    width: 30%;
+    padding: 30px;
+}

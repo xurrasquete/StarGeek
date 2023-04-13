@@ -62,17 +62,25 @@ header {
     color:  white;
     font-family: Arial, Helvetica, sans-serif;
 }
+.mim {
+    margin-right: 370px;
+}
 .baixo> div {
     text-align: left;
     display: flex;
     align-items: flex-start;
-    margin-right: 370px;
     margin-top: 20px;
 }
-h2 {
+h2 > a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     margin-top: 10px;
+    text-decoration: none;
+    color: blue;
+}
+.entrar {
+    text-align: center;
+
 }
 .entrar> a {
     border: 2px solid black;
@@ -83,5 +91,8 @@ h2 {
     width: 414px;
     height: 40px;
     margin: auto;
-    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
 }

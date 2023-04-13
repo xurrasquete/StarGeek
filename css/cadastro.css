@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/image\ 10.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+header {
+    height: 120px;
+    width: 1479px;
+    background-color: #EAE9E9;
+    display: flex;
+}
+.borda {
+    border: 2px solid #5300a685;
+    border-radius: 15px;
+    background-color: #5300a685;
+    width: 950px; height: 500px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+.lado {
+    border: 2px solid white;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: white;
+    width: 80px; height: 500px;
+}
+.voltar {
+    width: 30px; height: 30px;
+    margin-top: 10px; margin-left: 20px;
+}
+.cadastro {
+    width: 90%;
+    height: 450px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+}
+.nome {
+    display: flex;
+}
+.cadastro> img{
+  margin-bottom: 20px;
+  width: 300px; height: 48px;
+  margin-left: 270px; margin-top: 0;
+}
+.nome > input {
+    border: 2px solid rgba(190, 187, 187, 0.86);
+    border-radius: 5px;
+    background-color: rgba(190, 187, 187, 0.86);
+    color: white;
+    width: 330px; height: 40px;
+    font-size: 20px;
+    margin-left: 30px; 
+    margin: auto;
+}
+input {
+    border: 2px solid rgba(190, 187, 187, 0.86);
+    border-radius: 5px;
+    background-color: rgba(190, 187, 187, 0.86);
+    color: white;
+    width: 754px; height: 40px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 48px;
+}
+.genero {
+    display: flex;
+    marg
+}
+.genero > p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 54px; margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+}
+.genero > a {
+    border: 2px solid rgba(190, 187, 187, 0.86);
+    border-radius: 5px;
+    background-color: rgba(190, 187, 187, 0.86);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 5px 20px;
+    margin: 10px;
+    margin-left: 25px;
+}
+.genero2 > a {
+    border: 2px solid rgba(190, 187, 187, 0.86);
+    border-radius: 5px;
+    background-color: rgba(190, 187, 187, 0.86);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 5px 20px;
+    margin: 10px;
+    margin-left: 25px;
+    margin-top: 40px;
+}
+.entrar {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    width: 300px; height: 45px;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin: auto;
+    align-items: center;
+}

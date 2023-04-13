@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 120px;
+    width: 1479px;
+    background-color: #EAE9E9;
+    display: flex;
+}

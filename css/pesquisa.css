@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/image\ 12.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+header {
+    height: 120px;
+    width: 1479px;
+    background-color: #EAE9E9;
+    display: flex;
+}
+.cima {
+    border: 2px solid white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: white;
+    width: 950px; height: 60px;
+    margin: auto;
+    margin-right: 265px;
+    margin-bottom: 0;
+}
+.borda {
+    border: 2px solid #5300a685;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #5300a685;
+    width: 950px; height: 500px;
+    display: flex;
+    align-items: flex-start;
+    margin: auto;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.pesquisar {
+    width: 30px; height: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.obra {
+    border: 0px solid white;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.voltar {
+    width: 30px; height: 30px;
+    margin-left: 450px;
+}

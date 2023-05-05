@@ -4,8 +4,180 @@
     box-sizing: border-box;
 }
 header {
-    height: 120px;
+    height: 100px;
     width: 1479px;
     background-color: #EAE9E9;
     display: flex;
+}
+.menu {
+    display: flex;
+}
+.menu > li {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.menu > li > a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 600px;
+    margin-right: 10px;
+    margin-left: 180px;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menu > li:hover {
+    background-color: rgb(255, 255, 255);
+}
+.voltar {
+    width: 25px; height: 25px;
+    margin-top: 10px; margin-left: 130px;
+    margin-top: 30px;
+}
+.pesquisar {
+    width: 30px; height: 30px;
+    margin-left: 100px; margin-top: 25px;
+}
+.baner {
+    overflow: scroll;
+    display: flex;
+}
+.baner> img {
+    width: 1600px; height: 500px;
+}
+.baner::-webkit-scrollbar {
+    display: none;
+}
+.catalogo {
+    background-color: #5300A6;
+    display: flex;
+    flex-direction: column;
+}
+.catalogo> p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px; margin-left: 20px;
+}
+.filmesfav {
+    overflow: scroll;
+    display: flex;
+}
+.filmesfav::-webkit-scrollbar {
+    display: none;
+}
+.filmesfav> img {
+    width: 150px; 
+    margin-top: 30px;margin-left: 30px;
+}
+.genero {
+    overflow: scroll;
+    display: flex;
+}
+.genero::-webkit-scrollbar {
+    display: none;
+}
+.genero> img {
+    width: 200px; height: 200px;
+    margin-top: 30px;margin-left: 30px;
+}
+.maze:hover {
+    content: url(../img/the\ death\ cure\ \(5\).gif);
+    width: 400px;
+    transition-duration: 0.55s;
+}
+.telefone:hover {
+    content: url(../img/giphy.gif);
+    width: 400px;
+    transition-duration: 0.55s;
+}
+.corra:hover {
+    content: url(../img/anigif_sub-buzz-12869-1488572182-2.gif);
+    width: 400px;
+    transition-duration: 0.55s;
+}
+.avatar:hover {
+    content: url(../img/avatar-avatar2.gif);
+    width: 400px;
+    transition-duration: 0.55s;
+}
+.wakanda:hover {
+    content: url(../img/giphy\ \(1\).gif);
+    width: 400px;
+    transition-duration: 0.55s;
+}
+.prey:hover {
+    content: url(../img/prey-predator.gif);
+    width: 400px;
+    transition-duration: 0.55s;
+}
+.olhos:hover {
+    content: url(../img/56ace89ba66905168d83bc494a40ab8af8e50417_hq.gif);
+    width: 400px;
+    transition-duration: 0.55s;
+}
+.megan:hover {
+    content: url(../img/tumblr_4d4a74656f717c7ad1492acf6853a53d_5ef0fe71_540.gif);
+    width: 400px;
+    transition-duration: 0.55s;
+}
+.wolf:hover {
+    content: url(../img/aiming-allison-argent.gif);
+    width: 400px;
+    transition-duration: 0.55s;
+}
+.tempo:hover {
+    content: url(../img/pearl.gif);
+    width: 400px;
+    transition-duration: 0.55s;
+}
+.tudo:hover {
+    content: url(../img/4.gif);
+    width: 400px;
+    transition-duration: 0.55s;
+}
+.olhe:hover {
+    content: url(../img/Critica-Nao-Nao-Olhe-Jordan-Peele-3jpg.gif);
+    width: 400px;
+    transition-duration: 0.55s;
+}
+.men0:hover {
+    content: url(../img/tumblr_109240b290dd99fdab26b800badfa497_288138cc_540.gif);
+    width: 400px;
+    transition-duration: 0.55s;
+}
+.mimada:hover {
+    content: url(../img/e25a4610f1ce13d7bec19f292acc5b2944142718r1-500-208_hq.gif);
+    width: 400px;
+    transition-duration: 0.55s;
+}
+.cinderela:hover {
+    content: url(../img/tumblr_lsijyq2lqx1r316i8o1_500.gif);
+    width: 400px;
+    transition-duration: 0.55s;
+}
+.beijo:hover {
+    content: url(../img/tumblr_ce8f2d77baeb9fc6883c961e33c42b49_bf4ae6a0_500.webp);
+    width: 400px;
+    transition-duration: 0.55s;
+}
+.loser:hover {
+    content: url(../img/original.gif);
+    width: 400px;
+    transition-duration: 0.55s;
+}
+.work:hover {
+    content: url(../img/dancing-jordan-fisher.gif);
+    width: 400px;
+    transition-duration: 0.55s;
+}
+.date:hover {
+    content: url(../img/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f4e4a616b6977596c45584f6f4f773d3d2d373434393430393533.gif);
+    width: 400px;
+    transition-duration: 0.55s;
+}
+.altura:hover {
+    content: url(../img/giphy\ \(2\).gif);
+    width: 400px;
+    transition-duration: 0.55s;
 }

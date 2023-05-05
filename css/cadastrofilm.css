@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/image\ 12.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+header {
+    height: 120px;
+    width: 1479px;
+    background-color: #EAE9E9;
+    display: flex;
+}
+.borda {
+    border: 2px solid #5300a685;
+    border-radius: 15px;
+    background-color: #5300a685;
+    width: 950px; height: 500px;
+    display: flex;
+    align-items: flex-start;
+    margin: auto;
+    margin-top: 60px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.cima {
+    border: 2px solid white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+    width: 950px; height: 80px;
+    display: flex;
+}
+.voltar {
+    width: 30px; height: 30px;
+    margin-top: 10px; margin-left: 10px;
+    display: flex;
+}
+.logo1 {
+    width: 120px; height: 80px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+.categoria {
+    border: 2px solid #C9C9C99E;
+    border-radius: 10px;
+    width: 654px; height: 50px;
+    background-color: #C9C9C99E;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;  
+    margin: auto;
+}
+.obra {
+    border: 2px solid #C9C9C99E;
+    border-radius: 10px;
+    width: 654px; height: 50px;
+    background-color: #C9C9C99E;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;  
+    margin: auto;
+}
+.arquivo {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 170px; 
+    background-color: white;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;  
+    margin: auto;
+    align-items: center;
+    padding: auto;
+}
+.cadastrar {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    width: 250px; height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 10px;
+    margin: auto;
+}
+.cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 350px;
+}
+.cadastro> img {
+    width: 130px; height: 190px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
